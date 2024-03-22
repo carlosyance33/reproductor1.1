@@ -1,0 +1,217 @@
+* {
+    
+    /* la propiedad mas importante del seteo de estilos   */
+
+    box-sizing: border-box;
+    color: rgb(173, 171, 171);
+    font-size: 1.1rem ;
+    font-weight: 400;
+    font-family: lanteros, "Roboto", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+
+    padding: 0;
+    margin: 0;
+    outline: none;
+
+    border: solid 2px red;
+
+}
+
+
+.nav_encabezado {
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    
+
+
+}
+
+.body {
+    background-color: #8AA6A3;
+
+
+}
+
+.nav__icono {
+    
+    height: 36px;
+
+}
+
+.iconobuscar {
+
+    width: 36px;
+    height: 36px;
+}
+
+.nav__buscador {
+    display: flex;
+    padding: 0px 400px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    flex-direction: row;
+    align-items: center;
+    
+    
+
+
+}
+
+.main__secciones {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.contenedor__novedades {
+    display: flex;
+    background-color: #2b3d3b;
+    border-radius: 10px;
+    padding: 10px 10px;
+
+
+
+}
+
+.novedad {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav__buscador {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 370%;
+    
+
+
+
+}
+
+.div__nav__icono {
+    display: flex;
+
+
+    align-items: center;
+
+
+}
+
+.boton__usuario, .boton__configuracion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    
+
+
+}
+
+.seccion__izquierda__inicio, .seccion__izquierda__buscar, .seccion__izquierda__favoritos {
+    display: flex;
+   
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    
+
+
+}
+
+
+.menu__izquierdo {
+    padding: 20px 20px;
+    background-color: #2b3d3b;
+    border-radius: 10%;
+
+
+
+}
+
+.seccion2 {
+    background-color: #2b3d3b;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.album__salsa , .album__merengue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.boton__ver {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color: #9e6969;
+    border-radius: 10px;
+    padding: 0px 15px;
+
+
+
+}
+
+.seccion__derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.texto__novedades {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.canciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    gap: 30px;
+
+}
+
+.seccion__derecha__inferior {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+
+
+}

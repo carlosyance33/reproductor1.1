@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="reproductor, musica, canciones">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="reprodutor de musica  ">
+    <meta name="author" content="Carlos">
+    <meta name="language" content="es">
+    <link rel="icon" href="/assets/muebles.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>reproductor</title>
+</head>
+<body class="body">
+
+    <header>
+        <nav>
+            <section class="nav_encabezado">
+
+                <div class="div__nav__icono">
+                    <img src="/settings/LOGO-TECNO.png" alt="" class="nav__icono">
+                </div>
+                
+                <div class="nav__buscador">
+                   <div class="nav__buscar">
+                    <h1>
+                        buscar
+                    </h1>
+
+                   </div>
+                    
+                    
+        
+                    <div class="nav__iconobuscar">
+                        <img src="/settings/icono de buscar.png" alt="" class="iconobuscar">
+                    </div>
+        
+        
+        
+        
+                </div>
+        
+                <div>
+                    <button class="boton__usuario"> <img src="/settings/icono usuario.png" alt="" class="icono__usuario">   usuario    </button>
+                    
+        
+                
+                </div>
+        
+                <div>
+                    <button class="boton__configuracion"> <img src="/settings/icono configuracion.png" alt="">  configuración    </button>
+                    
+        
+        
+                </div>
+        
+            </section>
+        </nav>
+
+
+
+
+    </header>
+
+
+    <main>
+
+        <section class="main__secciones">
+
+            <div>
+                <section class="menu__izquierdo">
+                    <div>
+                        <button class="seccion__izquierda__inicio"> <img src="/settings/icono casa.png" alt="" >   inicio    </button>
+                    </div>
+    
+                    <div>
+                        <button class="seccion__izquierda__buscar"> <img src="/settings/icono lupa.png" alt="" >   Buscar   </button>
+    
+    
+                    </div>
+    
+                    <div>
+                        <button class="seccion__izquierda__favoritos" > <img src="/settings/icono corazon.png" alt="" >  favoritos    </button>
+    
+    
+                    </div>
+
+
+                </section>
+
+                <section class="seccion2">
+                    <h4> Tus albumes</h4>
+
+                    <div class="album__salsa">
+                        <img src="/settings/portada album.png" alt="">
+                        <h3>Salsa</h3>
+                    </div>
+
+                    <div class="album__merengue">
+
+                        <img src="/settings/portada album.png" alt="">
+                        <h4> merengue</h4>
+                    </div>
+
+                    <div>
+                        <button class="boton__ver"> <img src="/settings/flecha a 1.png" alt=""> ver más </button>
+                        
+
+
+                    </div>
+
+                    
+
+
+                </section>
+
+
+
+
+            </div>
+
+
+
+            <div class="seccion__derecha">
+                <section class="seccion__derecha__novedades">
+                    <h3 class="texto__novedades">Novedades</h3>
+                    <section class="contenedor__novedades">
+                        <div class="novedad">
+                            <img src="/settings/portada sam.png" alt="">
+                            <div class="novedad__texto"> 
+                                <h2> Sam smith</h2>
+                                <h3> I'm Not The Only One </h3>
+                                <h4> 04:39</h4>
+    
+                            
+                            
+                            </div>
+                        </div>
+    
+                        <div class="novedad">
+                            <img src="/settings/portada sam.png" alt="">
+                            <div class="novedad__texto">
+                                 <h2> Sam smith</h2>
+                                <h3> I'm Not The Only One </h3>
+                                <h4> 04:39</h4>
+    
+                            
+                            
+                            </div>
+                        </div>
+    
+                        <div class="novedad">
+                            <img src="/settings/portada sam.png" alt="">
+                            <div class="novedad__texto"> <h2> Sam smith</h2>
+                                <h3> I'm Not The Only One </h3>
+                                <h4> 04:39</h4>
+    
+                            
+                            
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                </section>
+
+
+                
+
+
+                <section class="seccion__derecha__inferior">
+                    <h3>lista de reproducción</h3>
+                    <div id="track-list" class="canciones"></div>
+                    
+                </section>
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+    </main>
+
+
+
+
+    <footer>
+
+
+
+        
+
+
+
+
+    </footer>
+
+    <script src="/script1.js"></script>
+
+
+
+    
+
+
+
+
+
+
+
+</body>
+</html>
